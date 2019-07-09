@@ -29,7 +29,7 @@
     [options setFormatOptionIntValue:30 *1000 * 1000 forKey: @"timeout"];
     
     // Do any additional setup after loading the view.
-    self.player = [[IJKFFMoviePlayerController alloc]initWithContentURL:[NSURL URLWithString:@"http://video.klm123.com/021dd1be8ca946ce8a0f6b98cee45c81/a582b3c9c7a04401803b57470aea8a0b_10.mp4?auth_key=1562676347-d16dddffe7904bcf8758c605a3fe880a-0-4a08b51f0fd52a04811bb9c0913a1075"] withOptions:options];
+    self.player = [[IJKFFMoviePlayerController alloc]initWithContentURL:[NSURL URLWithString:@"http://txmov2.a.yximgs.com/bs2/newWatermark/MTQwMDQ2NTk1NjE_zh_4.mp4"] withOptions:options];
     [self.player setScalingMode:IJKMPMovieScalingModeAspectFill];
     self.player.shouldAutoplay = YES;
     self.player.view.frame = CGRectMake(0, 100, CGRectGetWidth([UIScreen mainScreen].bounds), 200);
