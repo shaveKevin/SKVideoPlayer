@@ -1,0 +1,16 @@
+PODS:
+  - SKVideoPlayer (0.0.1)
+
+DEPENDENCIES:
+  - SKVideoPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  SKVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKVideoPlayer: 8c358ead96fb1afa4af0bd9f39688deb12a2c27d
+
+PODFILE CHECKSUM: 33bf374e1e23b200bd71e5f6eedbeae3107cb72d
+
+COCOAPODS: 1.7.3

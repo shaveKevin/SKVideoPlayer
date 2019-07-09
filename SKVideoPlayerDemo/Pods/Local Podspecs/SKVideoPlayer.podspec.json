@@ -1,0 +1,43 @@
+{
+  "name": "SKVideoPlayer",
+  "version": "0.0.1",
+  "summary": "ijkplayer播放器类",
+  "homepage": "https://github.com/shaveKevin/SKVideoPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shavekevin": "shavekevin@gmail.cn"
+  },
+  "source": {
+    "git": "https://github.com/shaveKevin/SKVideoPlayer.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SKVideoPlayer/Classes/**/*.{h,m}",
+  "resources": "DSTBaseDevUtils/Assets/*.{png,bundle}",
+  "public_header_files": "SKVideoPlayer/Classes/**/*.h",
+  "static_framework": true,
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "MediaPlayer",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "UIKit",
+    "VideoToolbox"
+  ],
+  "libraries": [
+    "z",
+    "bz2",
+    "stdc++"
+  ],
+  "vendored_frameworks": "SKVideoPlayer/IJKMediaFramework.framework"
+}
