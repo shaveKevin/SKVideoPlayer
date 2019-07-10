@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.source_files = 'SKVideoPlayer/Classes/**/*.{h,m}'
-  s.resources = 'DSTBaseDevUtils/Assets/*.{png,bundle}'
+  #s.resources = 'SKVideoPlayer/Assets/*.{png,bundle}'
   s.public_header_files = 'SKVideoPlayer/Classes/**/*.h'
   s.static_framework = true
   s.frameworks = 'AudioToolbox','AVFoundation','CoreGraphics','CoreMedia','CoreVideo','MediaPlayer','MobileCoreServices','OpenGLES','QuartzCore','UIKit','VideoToolbox'
