@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKVideoPlayer-Simulator'
-  s.version          = '0.0.1'
+  s.version          = '0.0.1-Simulator'
   s.summary          = 'ijkplayer播放器类模拟器版'
   s.homepage         = 'https://github.com/shaveKevin/SKVideoPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
